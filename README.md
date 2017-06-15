@@ -12,3 +12,14 @@ Penjelasan :
 2.) REST(Representational state transfer) adalah suatu cara untuk menyediakan layanan bagi komputer untuk mengakses internet. REST memungkinkan komputer untuk mengakses dan memanipulasi representasi dari web resource yang berupa teks. Komputer akan mengirim request ke suatu resource url dan akan menerima respon dalam format tertentu, seperti JSON, XML, HTML, dll.
 
 3.) Github API memungkinkan kita untuk mengakses layanan-layanan yang disediakan github secara REST menggunakan url. Setiap url query selalu dimulai dengan https://api.github.com. Data dikirim dan diterima dalam format JSON. Beberapa layanan yang dapat digunakan via github API adalah mencari user berdasarkan kriteria tertentu seperti jumlah repository atau jumlah follower, mencari repository, mencari repository suatu user, dsb.
+
+Sreenshot
+
+![Tampian main](https://github.com/albertusdj/TugasCalabpro1/blob/master/screenshot/main.PNG)
+Tampilan utama
+
+![Tampilan userList](https://github.com/albertusdj/TugasCalabpro1/blob/master/screenshot/userList.PNG)
+Tampilan list of user
+
+![Tampilan userList](https://github.com/albertusdj/TugasCalabpro1/blob/master/screenshot/userRepo.PNG)
+Tampilan repository user
