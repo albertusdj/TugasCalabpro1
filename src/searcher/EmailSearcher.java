@@ -1,20 +1,18 @@
 package searcher;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-
-public class EmailSearcher {
-	private String dataUser;
-	
-	public EmailSearcher(String email) throws MalformedURLException, IOException{
-	    String url = "https://api.github.com/search/users?q="+email+"+in%3Aemail&type=Users";
-	    
-	    Connector connector = new Connector(url);
-	    dataUser = connector.getString();
-	}
-	
-	public String getString(){
-		return dataUser;
+/**
+ * Kelas untuk mencari user berdasarkan email
+ * @author albert
+ *
+ */
+public class EmailSearcher extends Searcher{
+	/**
+	 * Constructor
+	 * @param email email dari user yang ingin dicari
+	 * @throws MalformedURLException 
+	 * @throws IOException
+	 */
+	public EmailSearcher(String email){
+	    url = "https://api.github.com/search/users?q="+email+"+in%3Aemail&type=Users";
 	}
 }
-
